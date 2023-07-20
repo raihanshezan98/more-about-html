@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Royal Kabab Form</title>
+    <style>
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="styles/nav.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="media.html">Audio Video</a></li>
+                <li><a href="blog.html"> My Blog</a></li>
+                <li><a href="table.html">HTML Table</a></li>
+                <li><a href="form.html">Royal Kabab Form</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+
+            <h2>Please fill up the form</h2>
+
+            <form>
+
+                <label for="name">Your Name:
+                    <input id="name" type="text" placeholder="Your Name">
+                </label>
+
+                <label for="email">Your Email:
+                    <input type="email" name="" id="email" placeholder="Your Email">
+                </label>
+
+                <label for="phone">Your Number: 
+                    <input type="number" id="phone"
+                        placeholder="Your Number"></label>
+
+                <fieldset>
+
+                    <legend>Pick One Kabab</legend>
+
+                    <label for="chicken"> <input type="radio" name="kabab" id="chicken">Chicken Kabab </label>
+
+                    <label for="beef"><input type="radio" name="kabab" id="beef">Beef Kabab</label>
+
+                    <label for="fish"><input type="radio" name="kabab" id="fish">Fish Kabab</label>
+
+                </fieldset>
+
+                <fieldset>
+
+                    <legend>Pick One or More Sauce(s)</legend>
+
+                    <label for="tomato"><input type="checkbox" name="sauce" id="tomato">Tomato Sauce</label>
+
+                    <label for="mayonnaise"><input type="checkbox" name="sauce" id="mayonnaise">Mayonnaise Sauce</label>
+
+                    <label for="chatni"><input type="checkbox" name="sauce" id="chatni">Chatni</label>
+
+                </fieldset>
+
+                <fieldset>
+
+                    <legend>Special Instructure</legend>
+
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+
+                </fieldset>
+
+                <br>
+
+                <input type="reset" value="Reset">
+
+                <input type="submit" value="Value">
+
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
